@@ -1,0 +1,177 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, button, input, textarea {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', monospace;
+}
+
+body {
+    background-color: #1c1c1c;
+    color: #fff;
+}
+
+/*------*/
+
+/* Navigation Bar Styles */
+.navbar {
+    background-color: #000000;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px;
+}
+
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.logo a{
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.logo spam{
+    color:#4CAF50;
+}
+
+.auth-section a {
+    color: #fff;
+    margin-left: 15px;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Courier New', monospace;
+    margin: 0;
+    padding: 0;
+    background-color: #1c1c1c;
+    color: #fff;
+}
+
+/*-------*/
+
+h1 {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-family: 'Courier New', monospace;
+}
+
+.container {
+    max-width: 80%;
+    margin: 20px auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    padding: 20px;
+    background-color: #292929;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    font-family: 'Courier New', monospace;
+    box-shadow: 0 0 10px rgba(3, 246, 80, 0.634);
+
+}
+
+h2 {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #0da30d;
+}
+
+input, textarea, button {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #555;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: #444;
+    color: #fff;
+    font-size: 14px;
+}
+
+button {
+    background-color: #1a1a1a;
+    border: 1px solid #2a9b13;
+    cursor: pointer;
+    width: 200px;
+    height: 40px;
+    
+    
+}
+button:hover{
+    background-color: #474747;
+
+}
+
+.question {
+    background-color: #333;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #555;
+}
+
+.likes-comment {
+    margin-top: 10px;
+}
+
+.like-btn{
+    background-color: #1a1a1a;
+    width: 120px;
+    height: 40px;
+    color: white;
+    border: none;
+    padding: 5px 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.comment-btn {
+    background-color: #1a1a1a;
+    width: 120px;
+    height: 40px;
+    color: white;
+    border: none;
+    padding: 5px 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+.comment-input {
+    display: none;
+}
+
+.comment-input input, .comment-input button {
+    margin-top: 5px;
+    padding: 5px 8px;
+}
+
+.comment-section {
+    background-color: #333;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+/* Footer Section Styles */
+
+.footer {
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}

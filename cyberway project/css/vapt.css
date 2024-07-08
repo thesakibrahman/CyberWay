@@ -1,0 +1,235 @@
+body {
+    font-family: 'Courier New', monospace;
+    margin: 0;
+    padding: 0;
+    background-color: #282828;
+}
+
+/* Navigation Bar Styles */
+.navbar {
+    background-color: #000000;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px;
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+
+}
+.logo a{
+    color: #fff;
+    text-decoration: none;
+
+}
+.logo spam{
+    color:#4CAF50;
+
+}
+.auth-section a {
+    color: #fff;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+/* ... Previous styles ... */
+
+/* Hero Section Styles */
+.hero {
+    background: url('./images/vapt.gif') center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+    position: relative;
+}
+
+.animated-text {
+    display: inline-block;
+    font-size: 2em;
+    position: relative;
+}
+
+.animated-text::before {
+    content: " ";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    bottom: 0;
+    left: 0;
+    background-color: #4CAF50;
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.5s ease;
+}
+
+.animated-text:hover::before {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+/* ... Previous styles ... */
+
+/* Challenge Section Styles */
+
+.section-box {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #9a9a9a;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 15px;
+}
+
+.section-title {
+    font-size: 2em;
+    margin: 15px ;
+    color: #fff;
+    text-align: center;
+}
+
+/* Challenge Card Styles */
+
+.challenge-description span{
+    color:#e7f316
+
+}
+
+.challenge-card {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 15px;
+    width: 385px; /* Adjust the width as needed */
+    transition: transform 0.3s ease;
+    box-shadow: 0 0 10px rgba(39, 220, 3, 0.634);
+    
+
+}
+
+.challenge-card:hover {
+    transform: scale(1.05);
+}
+
+.challenge-card p{
+    text-align: justify;
+
+}
+
+.download-button, .submit-flag-button {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.download-button {
+    background-color: #28a745;
+    margin-right: 10px;
+}
+
+.submit-flag-button {
+    background-color: #007BFF;
+}
+
+.download-button:hover, .submit-flag-button:hover {
+    background-color: #218838;
+}
+
+.challenge-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    
+}
+/* Animation for Challenge Text */
+
+/* Flag Submit Popup Styles */
+.flag-submit-popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.popup-content {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.close-popup {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.flag-validation-message {
+    color: #d9534f;
+    font-size: 0.9em;
+    margin-top: 10px;
+}
+.popup-content {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.close-popup {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+/* Footer Section Styles */
+.footer {
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}

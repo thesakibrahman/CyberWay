@@ -1,0 +1,77 @@
+/* Add or modify styles as needed */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #5a5959;
+    color: #fff;
+}
+
+#ctf-game {
+    max-width: 90%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #000000;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #4caf50;
+}
+
+p {
+    color: #ddd;
+}
+
+#challenges-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.challenge {
+    width: 400px;
+    margin: 10px;
+    padding: 20px;
+    background-color: #535353;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.challenge:hover {
+    background-color: #4c954e;
+}
+
+.flag {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #4caf50;
+    border-radius: 5px;
+    display: none;
+}
+
+.submit-flag-button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    position: absolute;
+    bottom: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.submit-flag-button:hover {
+    background-color: #0056b3;
+}

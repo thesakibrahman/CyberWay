@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CyberWay</title>
+    <link rel="stylesheet" href="./forum.css">
+</head>
+<body>
+
+   <!-- Navigation Bar -->
+<nav class="navbar">
+    <div class="logo"><a href="../index.html"><spam>Cyber</spam>Way </a> </div>
+    <div class="auth-section">
+        <a href="#">Forum</a>
+    </div>
+</nav>
+
+
+
+    <h1>Questions and Answers forum</h1>
+
+    <div class="container">
+        <!-- Section to ask a question -->
+        <div id="ask-question-section">
+            <h2>Ask a Question</h2>
+            <form id="question-form">
+                <input type="text" id="question-title" placeholder="Question Title" required>
+                <textarea id="question-content" placeholder="Question Content" required></textarea>
+                <button type="button" id="post-question-btn">Post Question</button>
+            </form>
+        </div>
+        
+        <!-- Section to display recent questions -->
+        <div id="questions-section">
+            <h2>Posted Questions</h2>
+            <!-- Sample question with like, comment options -->
+            <div class="question">
+                <h3>Sample Question Title</h3>
+                <p>Sample question content goes here...</p>
+                <div class="likes-comment">
+                    <button class="like-btn" onclick="likeQuestion(this)">Vote (0)</button>
+                    <button class="comment-btn" onclick="toggleCommentInput(this)">Answer</button>
+                    <div class="comment-input" style="display: none;">
+                        <input type="text" placeholder="Write your Answer">
+                        <button onclick="postComment(this)">Post Answer</button>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- More questions will be dynamically loaded here -->
+        </div>
+    </div>
+    <script src="./forum.js"></script>
+
+    <!-- Footer Section -->
+<footer class="footer">
+    <p>&copy; 2024 CyberWay. All rights reserved.</p>
+    <p>Develop by Sakib Rahman & Simran Malakar</p>
+</footer>
+
+</body>
+</html>

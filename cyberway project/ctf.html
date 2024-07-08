@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/ctf.css">
+    <script src="https://kit.fontawesome.com/b24b6e78b7.js" crossorigin="anonymous"></script>
+    <title>CTF Challenges - CyberWay</title>
+</head>
+<body>
+
+<!-- Navigation Bar -->
+<nav class="navbar">
+    <div class="logo"><a href="index.html"><spam>Cyber</spam>Way </a> </div>
+    <div class="auth-section">
+        <a href="#">CTF Challenge</a>
+    </div>
+</nav>
+
+<!-- Challenge Sections -->
+<!-- Challenge Sections -->
+<section class="challenge-section" id="general">
+    <h2 class="section-title">General</h2>
+    <div class="section-box">
+        
+        <div class="challenge-card" id="general-challenge1">
+            <i class="fa-brands fa-linux"></i>
+            <div class="challenge-content">
+                <h3>Challenge 1</h3>
+                <p class="challenge-description">Check Your Knowledge<span><i>(Hint:click anywhere after typing answer)</i></span></p>
+                <div class="buttons">
+
+                    <a href="./ctf/General/chal-1.html" class="download-button">Find Flag</a>
+               <!--  <a onclick="window.open('./ctf/chal-1.html')" class="download-button">Download</a> -->
+                    <button class="submit-flag-button" onclick="showFlagSubmitPopup('general-challenge1')">Submit Flag</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Repeat similar structure for other challenges in the General section -->
+
+        <div class="challenge-card" id="general-challenge1">
+            <i class="fa-solid fa-code"></i>
+            <div class="challenge-content">
+                <h3>Challenge 2</h3>
+                <p class="challenge-description">Manualy explore the page<span><i>(Hint:inspect it)</i></span></p>
+                <div class="buttons">
+
+                  <!--   <a onclick="window.open('./ctf/gen_chel_2.gif')" class="download-button">Find Flag</a> -->
+
+                   <a href="./ctf/General/chal-2.html" class="download-button">Find Flag</a> 
+
+                    <button class="submit-flag-button" onclick="showFlagSubmitPopup('general-challenge1')">Submit Flag</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="challenge-card" id="general-challenge1">
+            <i class="fa-solid fa-sitemap"></i>
+             <div class="challenge-content">
+                <h3>Challenge 3</h3>
+                <p class="challenge-description">Solve the Riddle<span><i>(Hint:click anywhere after typing answer)</i></span></p>
+                <div class="buttons">
+
+                    <a href="./ctf/General/chal-3.html" class="download-button">Find Flag</a>
+               <!--  <a onclick="window.open('./ctf/chal-1.html')" class="download-button">Download</a> -->
+                    <button class="submit-flag-button" onclick="showFlagSubmitPopup('general-challenge1')">Submit Flag</button>
+                </div>
+
+        
+
+        <!-- Add more challenge cards here -->
+    </div>
+</section>
+
+
+<section class="challenge-section" id="Stegenography">
+
+    <h2 class="section-title">Stegenography</h2>
+
+    <div class="section-box">
+        <div class="challenge-card" id="general-challenge1">
+            <i class="fa-solid fa-images"></i>
+                <div class="challenge-content">
+                <h3>Challenge 1</h3>
+                <p class="challenge-description">Uncover hidden message in the image<span><i> (Hint:use notepad or manualy check the image)</i></span></p>
+                <div class="buttons">
+
+                 <a onclick="window.open('./ctf/Stegenography/Image/image_file.jpg')" class="download-button">Download</a>
+                   <!--  <a href="#" class="download-button">Download</a>  -->
+
+                    <button class="submit-flag-button" onclick="showFlagSubmitPopup('general-challenge1')">Submit Flag</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="challenge-card" id="general-challenge1">
+            <i class="fa-solid fa-volume-high"></i>
+                <div class="challenge-content">
+                <h3>Challenge 2</h3>
+                <p class="challenge-description">Unravel hidden melodies within the waves of sound<span><i>(Hint:inspect the audio file)</i></span> </p>
+                <div class="buttons">
+                   <!-- <a href="./ctf/Stegenography/Audio/audio_file.mp3" class="download-button">Download</a> -->
+
+                    <a onclick="window.open('./ctf/Stegenography/Audio/audio_file.mp3')" class="download-button">Download</a>
+                    <button class="submit-flag-button" onclick="showFlagSubmitPopup('general-challenge1')">Submit Flag</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="challenge-card" id="general-challenge1">
+            <i class="fa-solid fa-video"></i>
+                <div class="challenge-content">
+                <h3>Challenge 3</h3>
+                <p class="challenge-description">Unlock the hidden secrets in video<span><i>(Hint:use notepad or online tools)</i></span></p>
+                <div class="buttons">
+                   <!--<a href="#" class="download-button">Download</a> -->
+
+                   <a onclick="window.open('./ctf/Stegenography/video/video_file.mp4')" class="download-button">Download</a>
+                    <button class="submit-flag-button" onclick="showFlagSubmitPopup('general-challenge1')">Submit Flag</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Repeat similar structure for other challenges in the General section -->
+
+        <!-- Add more challenge cards here -->
+    </div>
+</section>
+
+<section class="challenge-section" id="Cryptography">
+
+    <h2 class="section-title">Cryptography</h2>
+
+    <div class="section-box" id="general-challenge1">
+        <div class="challenge-card">
+        <i class="fa-regular fa-file-code"></i>
+        <div class="challenge-content">
+                <h3>Challenge 1</h3>
+                <p class="challenge-description">Cryptography can be easy, do you know what ROT13 is?<span><i>(Hint:use online tools)</i></span></p>
+                <div class="buttons">
+                   <!---- <a href="#" class="download-button">Download</a> -->
+                   <a onclick="window.open('./ctf/Cryptography/rot13.txt')" class="download-button">Find Flag</a>
+                 <button class="submit-flag-button" onclick="showFlagSubmitPopup('general-challenge1')">Submit Flag</button>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- Repeat similar structure for other challenges in the General section -->
+        <div class="challenge-card" id="general-challenge1">
+            <i class="fa-solid fa-file-lines"></i>
+             <div class="challenge-content">
+                <h3>Challenge 2</h3>
+                <p class="challenge-description">Shifting of letter is not fixed,Decrypt this.<span><i>(Hint:Use online tools)</i></span></p>
+                <div class="buttons">
+                    <a onclick="window.open('./ctf/Cryptography/caesercipher.txt')" class="download-button">Download</a> 
+                    <button class="submit-flag-button" onclick="showFlagSubmitPopup('general-challenge1')">Submit Flag</button>  
+
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Add more challenge cards here -->
+    </div>
+</section>
+
+<section class="challenge-section" id="Web">
+
+    <h2 class="section-title">Web</h2>
+
+    <div class="section-box">
+        <div class="challenge-card" id="general-challenge1">
+            <i class="fa-brands fa-linux"></i>
+            <div class="challenge-content">
+                <h3>Challenge 1</h3>
+                <p class="challenge-description">Go to the page and execute the code<span><i>(Hint:Use online tools)</i></span></p>
+                <div class="buttons">
+                    <a href="http://localhost/vweb-3/BufferOverflow/Overflow-1.php" class="download-button">Find Flag</a>
+                    <button class="submit-flag-button" onclick="showFlagSubmitPopup('general-challenge1')">Submit Flag</button>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Repeat similar structure for other challenges in the General section -->
+
+        <div class="challenge-card" id="general-challenge1">
+            <i class="fa-solid fa-code"></i>
+            <div class="challenge-content">
+                <h3>Challenge 2</h3>
+                <p class="challenge-description">Description of the challenge goes here.</p>
+                <div class="buttons">
+                    <a href="#" class="download-button">Download</a>
+                    <button class="submit-flag-button" onclick="showFlagSubmitPopup('general-challenge1')">Submit Flag</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Add more challenge cards here -->
+    </div>
+</section>
+
+<section class="challenge-section" id="MiSC">
+
+    <h2 class="section-title">Misc</h2>
+
+    <div class="section-box">
+        <div class="challenge-card" id="general-challenge1">
+            <i class="fa-brands fa-linux"></i>
+            <div class="challenge-content">
+                <h3>Challenge 1</h3>
+                <p class="challenge-description">Description of the challenge goes here.</p>
+                <div class="buttons">
+                    <a href="#" class="download-button">Download</a>
+                    <button class="submit-flag-button" onclick="showFlagSubmitPopup('general-challenge1')">Submit Flag</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Repeat similar structure for other challenges in the General section -->
+
+        <div class="challenge-card" id="general-challenge1">
+            <i class="fa-solid fa-windows"></i>
+            <div class="challenge-content">
+                <h3>Challenge 2</h3>
+                <p class="challenge-description">Description of the challenge goes here.</p>
+                <div class="buttons">
+                    <a href="#" class="download-button">Download</a>
+                    <button class="submit-flag-button" onclick="showFlagSubmitPopup('general-challenge1')">Submit Flag</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="challenge-card" id="general-challenge1">
+            <i class="fa-solid fa-home"></i>
+            <div class="challenge-content">
+                <h3>Challenge 3</h3>
+                <p class="challenge-description">Description of the challenge goes here.</p>
+                <div class="buttons">
+                    <a href="#" class="download-button">Download</a>
+                    <button class="submit-flag-button" onclick="showFlagSubmitPopup('general-challenge1')">Submit Flag</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Add more challenge cards here -->
+    </div>
+</section>
+
+
+<!-- Flag Submit Popup Styles -->
+<div class="flag-submit-popup" id="flagSubmitPopup">
+    <div class="popup-content">
+        <span class="close-popup" onclick="closeFlagSubmitPopup()">&times;</span>
+        <h2>Submit Flag</h2>
+        <input type="text" id="flagInput" placeholder="Enter Flag">
+        <button onclick="submitFlag()">Submit</button>
+        <p class="flag-validation-message" id="validationMessage"></p>
+    </div>
+</div>
+  
+<!-- Footer Section -->
+<footer class="footer">
+    <p>&copy; 2024 CyberWay. All rights reserved.</p>
+    <p>Develop by Sakib Rahman & Simran Malakar</p>
+</footer>
+
+<!-- JavaScript for Popup -->
+<script src="./javascript/ctf.js"></script>
+
+</body>
+</html>

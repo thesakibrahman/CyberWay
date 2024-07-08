@@ -1,0 +1,116 @@
+/* General Styles */
+body {
+    font-family: 'Courier New', monospace;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation Bar Styles */
+.navbar {
+    background-color: #000000;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px;
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.logo a{
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.logo spam{
+    color:#4CAF50;
+}
+
+.auth-section a {
+    color: #fff;
+    margin-left: 15px;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Courier New', monospace;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    color: #fff;
+}
+/* Tools Text Section Styles */
+
+/* Tools Text Section Styles */
+.tools-text-section {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.tools-text {
+    font-size: 2em;
+    color: #ffffff;
+}
+
+.tools-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.tool-card {
+    background-color: #2c2c2c;
+    color: #ffff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 15px;
+    width: 320px;
+    box-shadow: 0 0 10px rgba(36, 234, 5, 0.634);
+    transition: transform 0.3s ease;
+}
+
+.tool-card:hover {
+    transform: translateY(-5px);
+}
+
+.tool-card h2 {
+    margin-top: 0;
+}
+
+.tool-card p {
+    
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.tool-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.tool-button:hover {
+    background-color: #0056b3;
+}
+
+
+/* Footer Section Styles */
+
+.footer {
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+
+
